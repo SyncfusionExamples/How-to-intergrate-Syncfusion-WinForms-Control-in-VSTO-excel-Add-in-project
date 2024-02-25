@@ -38,6 +38,3 @@ Step 5: Run the application; you will see Excel with Syncfusion controls, as sho
 **Output Image Reference:**
  
  ![Output_Image.png](https://support.syncfusion.com/kb/agent/attachment/article/15364/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE4OTUwIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.L77-2JI2S5Xv8YM5DyqB7Afebr4-EgHQqAomElv1sjA)
-
- 
- [View Sample in GitHub](https://github.com/SyncfusionExamples/How-to-intergrate-Syncfusion-WinForms-Control-in-VSTO-excel-Add-in-project/tree/master)
