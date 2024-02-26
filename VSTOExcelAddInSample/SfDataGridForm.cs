@@ -17,17 +17,9 @@ namespace ExcelAddIn1
         public SfDataGridForm()
         {
             InitializeComponent();
-            sfDataGrid1.AutoGeneratingColumn += SfDataGrid1_AutoGeneratingColumn;
             sfDataGrid1.AutoGenerateColumns = true;
             sfDataGrid1.DataSource = viewModel.Orders;
-        }
-
-        private void SfDataGrid1_AutoGeneratingColumn(object sender, Syncfusion.WinForms.DataGrid.Events.AutoGeneratingColumnArgs e)
-        {
-            if(e.Column.MappingName == "CustomerName")
-            {
-                e.Column.Width = 170;
-            }
+            sfDataGrid1.AutoSizeColumnsMode = Syncfusion.WinForms.DataGrid.Enums.AutoSizeColumnsMode.AllCells;
         }
     }
 }
